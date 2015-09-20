@@ -1,29 +1,32 @@
 """
 Uses the Clarafai API to learn a custom model.
+Here: We train the module to understand the difference between Coca-Cola and Pepsi. 
+The module returns a high confidence value for Coca-Cola and a low confidence value for Pepsi.
 """
 
 #author Aditya Vishwanath
 #created for HackMIT 2015
 
-"""
-Concepts:
-1. Grains.
-2. Vegetables.
-3. Fruits.
-4. Milk.
-5. Meat and Beans.
-"""
+# """
+# THE FOLLOWING COMMENT IS REDUNDANT.
+# Concepts:
+# 1. Grains.
+# 2. Vegetables.
+# 3. Fruits.
+# 4. Milk.
+# 5. Meat and Beans.
+# """
 
 from clarifai_basic import ClarifaiCustomModel
 
 testConcept = ClarifaiCustomModel()
 TEST_TAG = 'cocacola'
 def conceptTrainer():
-	grainsConcept = ClarifaiCustomModel()
-	vegetablesConcept = ClarifaiCustomModel()
-	fruitsConcept = ClarifaiCustomModel()
-	milkConcept = ClarifaiCustomModel()
-	meatandbeansConcept = ClarifaiCustomModel()
+	# grainsConcept = ClarifaiCustomModel()
+	# vegetablesConcept = ClarifaiCustomModel()
+	# fruitsConcept = ClarifaiCustomModel()
+	# milkConcept = ClarifaiCustomModel()
+	# meatandbeansConcept = ClarifaiCustomModel()
 
 	#TEST: To learn the coca-cola tag, and differentiate between Coca-Cola and Pepsi.
 
